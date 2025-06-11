@@ -64,7 +64,7 @@ What I learned:
 * Input handling with `.lower()`
 
 
-💀 Hangman
+5. 💀 Hangman
 Classic Hangman game with lives, guessing logic, and ASCII visuals.
 
 What I learned:
@@ -122,7 +122,7 @@ What I learned:
 * Understanding control flow and code tracing
 * Clean code habits with comments and clear naming
 
-### TL;DR:
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 💬 How to Run
