@@ -1,9 +1,3 @@
-# Python-Projects
-A collection of beginner-friendly Python terminal projects for practice and learning.
-Perfect! Based on the 4 terminal-based projects you’ve uploaded (`Password Generator`, `Pizza Order`, `Rock Paper Scissors`, `Treasure Hunt`), here’s a polished `README.md` you can place in your GitHub repo.
-
----
-
 ## 🐍 Python Projects
 
 Welcome to my collection of beginner-friendly **Python terminal projects**!
@@ -13,68 +7,104 @@ Each project helped me learn and apply core Python concepts like `if/else`, loop
 
 # 📁 Projects Included
 
-1. 🔐 Password Generator
-
-Generates a secure, randomized password based on the number of:
+1. 🔐 **Password Generator**
+   Generates a secure, randomized password based on the number of:
 
 * **Letters**
 * **Symbols**
 * **Numbers**
 
-What I learned:
+**What I learned:**
 
 * Using `random.choice()` and `random.shuffle()`
 * List manipulation
 * String joining and formatting
 
-2. 🍕 Python Pizzeria
+---
 
-A simple pizza billing system that calculates the final price based on:
+2. 🍕 **Python Pizzeria**
+   A simple pizza billing system that calculates the final price based on:
 
 * Size (S, M, L)
 * Add-ons like pepperoni or extra cheese
 
-What I learned:
+**What I learned:**
 
 * `if`, `elif`, and `else` branching
 * Nesting logic and cost computation
 * Working with user input
 
-3. ✊ Rock Paper Scissors
+---
 
-A terminal version of Rock, Paper, Scissors with:
+3. ✊ **Rock Paper Scissors**
+   A terminal version of Rock, Paper, Scissors with:
 
 * User input
 * Computer-generated moves
 * ASCII art display
 
-What I learned:
+**What I learned:**
 
 * `random.randint()`
 * Game condition logic
 * Clean terminal I/O and input validation
 
-4. 🏝️ Treasure Hunt
+---
 
-A multi-choice text-based adventure game where your choices affect the outcome.
+4. 🏝️ **Treasure Hunt**
+   A multi-choice text-based adventure game where your choices affect the outcome.
 
-What I learned:
+**What I learned:**
 
 * Nested conditionals
 * Input handling with `.lower()`
 
+---
 
-5. 💀 Hangman
-Classic Hangman game with lives, guessing logic, and ASCII visuals.
+5. 💀 **Hangman**
+   Classic Hangman game with lives, guessing logic, and ASCII visuals.
 
-What I learned:
+**What I learned:**
 
-* Game loops with while not game_over
+* Game loops with `while not game_over`
 * Tracking correct and repeated guesses
 * Managing state (lives, display placeholders)
-* Importing functions and data from external files (e.g. hangman_art.py, hangman_words.py)
+* Importing functions and data from external files (`hangman_art.py`, `hangman_words.py`)
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+6. 🏛️ **Caesar Cipher**
+   An encryption tool that shifts letters of your message by a number you choose.
+
+**What I learned:**
+
+* Working with ASCII and `ord()/chr()`
+* Handling wrap-around alphabet logic
+* Creating reusable functions for encoding and decoding
+
+---
+
+7. 🧾 **Secret Bidding System**
+   A digital blind auction system where users enter their bids anonymously.
+
+**What I learned:**
+
+* Using dictionaries to store name-bid pairs
+* Finding the highest bid
+* Looping until a condition is met (`while not end_of_bidding`)
+
+---
+
+8. ❤️ **Love Calculator**
+   Takes two names and gives a fun "love score" based on common letters.
+
+**What I learned:**
+
+* String counting using `.count()`
+* Basic numerical calculations with string manipulation
+* Fun logic and terminal interaction
+
+---
 
 ### 📚 Skills Used Across Projects
 
@@ -90,7 +120,7 @@ What I learned:
 * Nested conditionals and branching logic
 * Logical operators: `and`, `or`, `not`
 * Looping with `for` and `while`
-* Boolean flags and loop control (`game_over`, `lives`)
+* Boolean flags and loop control (`game_over`, `end_of_bidding`)
 
 #### 🔀 Randomization:
 
@@ -103,6 +133,7 @@ What I learned:
 * Creating and modifying lists with `.append()` and indexing
 * List slicing and reversing
 * Membership checks (`if item in list`)
+* Dictionary operations (`key: value` pairs)
 
 #### 🎮 Game Logic & Terminal I/O:
 
@@ -122,20 +153,25 @@ What I learned:
 * Understanding control flow and code tracing
 * Clean code habits with comments and clear naming
 
+---
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 💬 How to Run
 
-💬 How to Run
-All projects are pure terminal-based. Just run each `.py` file individually using Python 3/ Any IDE (Terminal)
+All projects are pure terminal-based.
+Just run each `.py` file individually using **Python 3** in your IDE or terminal.
 
+```bash
+python project_name.py
+```
 
+---
 
-🔧 Coming Soon
+## 🔧 Coming Soon
 
-More beginner-friendly to intermediate projects like:
+More beginner to intermediate projects like:
 
-* Cipher
-* Snake Game
-* Capstone Project
+* 🕵️‍♂️ Cipher Decoder
+* 🐍 Snake Game
+* 🧠 Capstone Project (with everything combined!)
 
 
