@@ -170,8 +170,7 @@ python project_name.py
 
 More beginner to intermediate projects like:
 
-* 🕵️‍♂️ Cipher Decoder
 * 🐍 Snake Game
-* 🧠 Capstone Project (with everything combined!)
+* 🧠 Black Jack Game 
 
 
