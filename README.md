@@ -171,6 +171,6 @@ python project_name.py
 More beginner to intermediate projects like:
 
 * 🐍 Snake Game
-* 🧠 Black Jack Game 
+* 🧠 Number Guessing Game
 
 
