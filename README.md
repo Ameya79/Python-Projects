@@ -1,4 +1,4 @@
-## 🐍 Python Projects
+## 🐍 Python Projects (Terminal Based)
 
 Welcome to my collection of beginner-friendly **Python terminal projects**!
 Each project helped me learn and apply core Python concepts like `if/else`, loops, functions, user input, and logic building.
