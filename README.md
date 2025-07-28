@@ -173,4 +173,6 @@ More beginner to intermediate projects like:
 * 🐍 Snake Game
 * 🧠 Number Guessing Game
 
+## Drop a ⭐ if you found this useful!
+
 
