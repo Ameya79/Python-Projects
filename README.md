@@ -1,4 +1,4 @@
-## 🐍 Python Projects (Terminal Based)
+## 🐍 Python Projects (Terminal Based) & Some of My DSA practice (I will keep updating)
 
 Welcome to my collection of beginner-friendly **Python terminal projects**!
 Each project helped me learn and apply core Python concepts like `if/else`, loops, functions, user input, and logic building.
