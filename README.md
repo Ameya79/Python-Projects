@@ -1,178 +1,167 @@
-## 🐍 Python Projects (Terminal Based) & Some of My Python DSA practice (I will keep updating)
+# 🐍 Python Terminal Projects & DSA Practice
 
-Welcome to my collection of beginner-friendly **Python terminal projects**!
-Each project helped me learn and apply core Python concepts like `if/else`, loops, functions, user input, and logic building.
+[![Python](https://img.shields.io/badge/python-3.x-blue)]()
+[![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-brightgreen)]()
+[![License](https://img.shields.io/badge/license-MIT-orange)]()
 
----
-
-# 📁 Projects Included
-
-1. 🔐 **Password Generator**
-   Generates a secure, randomized password based on the number of:
-
-* **Letters**
-* **Symbols**
-* **Numbers**
-
-**What I learned:**
-
-* Using `random.choice()` and `random.shuffle()`
-* List manipulation
-* String joining and formatting
+A growing collection of **beginner-friendly Python terminal projects** + some of my **Python DSA practice**.  
+Each project helped me learn and apply Python fundamentals — `if/else`, loops, functions, user input, and logic building.
 
 ---
 
-2. 🍕 **Python Pizzeria**
-   A simple pizza billing system that calculates the final price based on:
+## 📁 Projects Included
 
-* Size (S, M, L)
-* Add-ons like pepperoni or extra cheese
+### 1️⃣ 🔐 Password Generator
+Generates secure, randomized passwords based on:
+- Letters
+- Symbols
+- Numbers
 
-**What I learned:**
-
-* `if`, `elif`, and `else` branching
-* Nesting logic and cost computation
-* Working with user input
-
----
-
-3. ✊ **Rock Paper Scissors**
-   A terminal version of Rock, Paper, Scissors with:
-
-* User input
-* Computer-generated moves
-* ASCII art display
-
-**What I learned:**
-
-* `random.randint()`
-* Game condition logic
-* Clean terminal I/O and input validation
+**Learned:**
+- `random.choice()` & `random.shuffle()`
+- List manipulation
+- String joining & formatting
 
 ---
 
-4. 🏝️ **Treasure Hunt**
-   A multi-choice text-based adventure game where your choices affect the outcome.
+### 2️⃣ 🍕 Python Pizzeria
+Simple pizza billing system:
+- Size (S, M, L)
+- Add-ons: pepperoni, extra cheese
 
-**What I learned:**
-
-* Nested conditionals
-* Input handling with `.lower()`
-
----
-
-5. 💀 **Hangman**
-   Classic Hangman game with lives, guessing logic, and ASCII visuals.
-
-**What I learned:**
-
-* Game loops with `while not game_over`
-* Tracking correct and repeated guesses
-* Managing state (lives, display placeholders)
-* Importing functions and data from external files (`hangman_art.py`, `hangman_words.py`)
+**Learned:**
+- `if` / `elif` / `else` branching
+- Nesting logic for cost computation
+- User input handling
 
 ---
 
-6. 🏛️ **Caesar Cipher**
-   An encryption tool that shifts letters of your message by a number you choose.
+### 3️⃣ ✊ Rock Paper Scissors
+Terminal-based game with:
+- User input
+- Computer-generated moves
+- ASCII art display
 
-**What I learned:**
-
-* Working with ASCII and `ord()/chr()`
-* Handling wrap-around alphabet logic
-* Creating reusable functions for encoding and decoding
-
----
-
-7. 🧾 **Secret Bidding System**
-   A digital blind auction system where users enter their bids anonymously.
-
-**What I learned:**
-
-* Using dictionaries to store name-bid pairs
-* Finding the highest bid
-* Looping until a condition is met (`while not end_of_bidding`)
+**Learned:**
+- `random.randint()`
+- Game condition logic
+- Input validation
 
 ---
 
-8. ❤️ **Love Calculator**
-   Takes two names and gives a fun "love score" based on common letters.
+### 4️⃣ 🏝️ Treasure Hunt
+Text adventure where choices affect the outcome.
 
-**What I learned:**
-
-* String counting using `.count()`
-* Basic numerical calculations with string manipulation
-* Fun logic and terminal interaction
+**Learned:**
+- Nested conditionals
+- `.lower()` for case-insensitive input
 
 ---
 
-### 📚 Skills Used Across Projects
+### 5️⃣ 💀 Hangman
+Classic hangman with lives & ASCII visuals.
 
-#### 💡 Core Python Concepts:
-
-* Variables and data types (`int`, `str`, `bool`, `list`)
-* String formatting and concatenation (`f-strings`, `+`, `.join()`)
-* User input handling with `input()` and type conversion (`int()`, `str()`)
-
-#### 🔁 Control Flow & Logic:
-
-* Conditional statements: `if`, `elif`, `else`
-* Nested conditionals and branching logic
-* Logical operators: `and`, `or`, `not`
-* Looping with `for` and `while`
-* Boolean flags and loop control (`game_over`, `end_of_bidding`)
-
-#### 🔀 Randomization:
-
-* `random.choice()` to pick characters
-* `random.shuffle()` to randomize password characters
-* `random.randint()` for game mechanics
-
-#### 🧩 Lists and Collections:
-
-* Creating and modifying lists with `.append()` and indexing
-* List slicing and reversing
-* Membership checks (`if item in list`)
-* Dictionary operations (`key: value` pairs)
-
-#### 🎮 Game Logic & Terminal I/O:
-
-* ASCII art display using multi-line strings (`'''` or `"""`)
-* User input validation and error handling (`if input not valid → exit`)
-* Progressive game states (lives left, repeated guesses, etc.)
-
-#### 📦 Modularity:
-
-* Organizing code into **multiple files** (`hangman_art.py`, `hangman_words.py`)
-* Importing and using external data (`import module_name`)
-* Separating data, visuals, and logic for better structure
-
-#### 🧠 Soft Skills Practiced:
-
-* Problem-solving and debugging
-* Understanding control flow and code tracing
-* Clean code habits with comments and clear naming
+**Learned:**
+- `while` game loops
+- Tracking guesses & lives
+- External file imports (`hangman_art.py`, `hangman_words.py`)
 
 ---
 
-## 💬 How to Run
+### 6️⃣ 🏛️ Caesar Cipher
+Encrypt/decrypt messages by shifting letters.
 
-All projects are pure terminal-based.
-Just run each `.py` file individually using **Python 3** in your IDE or terminal.
-
-```bash
-python project_name.py
-```
+**Learned:**
+- `ord()` / `chr()` with wrap-around logic
+- Reusable encode/decode functions
 
 ---
 
-## 🔧 Coming Soon
+### 7️⃣ 🧾 Secret Bidding System
+Blind auction with anonymous bids.
 
-More beginner to intermediate projects like:
+**Learned:**
+- Dictionaries for name–bid pairs
+- Highest bid detection
+- Loop until condition met
 
-* 🐍 Snake Game
-* 🧠 Number Guessing Game
+---
 
-## Drop a ⭐ if you found this useful!
+### 8️⃣ ❤️ Love Calculator
+Fun score based on common letters in two names.
 
+**Learned:**
+- `.count()` for letters
+- String-to-number conversion
+- Basic terminal interaction
+
+---
+
+## 📚 Skills Used Across Projects
+
+### 💡 Core Python
+- Variables & data types (`int`, `str`, `bool`, `list`)
+- String formatting: f-strings, `.join()`
+- User input & type conversion
+
+### 🔁 Control Flow
+- `if`, `elif`, `else` branching
+- Nested conditionals
+- `and`, `or`, `not`
+- Loops: `for`, `while`
+
+### 🔀 Randomization
+- `random.choice()`
+- `random.shuffle()`
+- `random.randint()`
+
+### 🧩 Data Structures
+- List operations: `.append()`, slicing, indexing
+- Dictionaries (`key: value`)
+- Membership checks
+
+### 🎮 Game Logic & I/O
+- ASCII art with multi-line strings
+- Input validation
+- Game state management
+
+### 📦 Modularity
+- Multiple Python files
+- Importing modules & data
+
+---
+
+## ▶️ How to Run
+Run each `.py` file individually:
+
+$ python project_name.py
+
+Requires Python 3.
+
+
+---
+
+🔧 Coming Soon
+
+🐍 Snake Game
+
+🧠 Number Guessing Game
+
+
+
+---
+
+👤 Author
+
+Ameya Kulkarni
+💻 GitHub | 📫 LinkedIn | 🎯 Codolio
+
+
+---
+
+📜 License: MIT — free to use, modify, and share.
+
+⭐ If you like this repo, drop a star and follow along as I keep updating!
+
+---
 
